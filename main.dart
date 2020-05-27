@@ -14,8 +14,9 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.amber[400],
       ),
       body: Center(
-        child: Image(
-          image: AssetImage('assets/statusneo_logo.png'),
+        child: RaisedButton(
+          onPressed: (){},
+          child: Text('click me'),
         )
       ),
       floatingActionButton: FloatingActionButton(
