@@ -14,7 +14,9 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.amber[400],
       ),
       body: Center(
-        child: Image.asset('assets/statusneo_logo.png'),
+        child: Icon(
+          Icons.airport_shuttle
+        ),
       ),
       floatingActionButton: FloatingActionButton(
         child: Text('click'),
