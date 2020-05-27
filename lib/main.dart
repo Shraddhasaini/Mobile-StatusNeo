@@ -14,7 +14,7 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.amber[400],
       ),
       body: Center(
-        child: RaisedButton(
+        child: FlatButton(
           onPressed: (){},
           child: Text('click me'),
           color: Colors.blue[500],
