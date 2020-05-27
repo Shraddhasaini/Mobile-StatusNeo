@@ -15,7 +15,7 @@ class Home extends StatelessWidget {
       ),
       body: Center(
         child: Image(
-          image: AssetImage(''),
+          image: AssetImage('assets/statusneo_logo.png'),
         )
       ),
       floatingActionButton: FloatingActionButton(
