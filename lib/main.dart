@@ -14,10 +14,16 @@ class Home extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.amber[400],
       ),
-      body: Row(
+      body: Column(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
+          Row(
+            children: <Widget>[
+              Text('he;;oo'),
+              Text ('world'),
+            ],
+          ),
           Text('heelo'),
           FlatButton(
             onPressed: (){},
