@@ -15,6 +15,7 @@ class Home extends StatelessWidget {
       ),
       body: Container(
         padding: EdgeInsets.all(100.0) ,
+        margin: EdgeInsets.all(30.0),
         color: Colors.amberAccent[400],
         child: Text('Where is Everyone?'),
       ),
