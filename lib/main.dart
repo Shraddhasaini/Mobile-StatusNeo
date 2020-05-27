@@ -30,10 +30,12 @@ class Home extends StatelessWidget {
             child: Text('clicl'),
             color: Colors.amber,
           ),
-          Container(
-            color: Colors.greenAccent,
-            padding: EdgeInsets.all(40.0),
-            child: Text('inisde container'),
+          Expanded(
+            child: Container(
+              color: Colors.greenAccent,
+              padding: EdgeInsets.all(40.0),
+              child: Text('inisde container'),
+            ),
           )
         ],
       ),
