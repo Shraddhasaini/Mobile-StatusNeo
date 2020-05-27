@@ -17,6 +17,7 @@ class Home extends StatelessWidget {
         child: RaisedButton(
           onPressed: (){},
           child: Text('click me'),
+          color: Colors.blue[500],
         )
       ),
       floatingActionButton: FloatingActionButton(
