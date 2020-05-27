@@ -14,16 +14,9 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.amber[400],
       ),
       body: Center(
-        child: Text(
-          'Hello Username',
-          style: TextStyle(
-            fontSize: 20.0,
-            fontWeight: FontWeight.bold,
-            letterSpacing: 2.0,
-            color: Colors.red[600],
-            fontFamily: 'Montserrat',
-          ),
-        ),
+        child: Image(
+          image: AssetImage(''),
+        )
       ),
       floatingActionButton: FloatingActionButton(
         child: Text('click'),
