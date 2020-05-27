@@ -14,7 +14,9 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.amber[400],
       ),
       body: Container(
+        padding: EdgeInsets.all(100.0) ,
         color: Colors.amberAccent[400],
+        child: Text('Where is Everyone?'),
       ),
       floatingActionButton: FloatingActionButton(
         child: Text('click'),
