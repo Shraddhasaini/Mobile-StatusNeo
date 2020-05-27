@@ -15,6 +15,8 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.amber[400],
       ),
       body: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: <Widget>[
           Text('heelo'),
           FlatButton(
