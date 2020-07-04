@@ -1,2 +1,2 @@
 
-this is for learning
+this is for learning purpose
